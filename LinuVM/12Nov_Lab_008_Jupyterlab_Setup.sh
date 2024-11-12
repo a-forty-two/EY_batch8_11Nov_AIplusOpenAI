@@ -19,7 +19,8 @@ ls
 source pikachu/bin/activate
 
 # Install Jupyter in the virtual environment
-pip3 install jupyter 
+pip3 install jupyter
+pip3 install notebook
 # Start Jupyternotebook
 jupyter notebook --generate-config
 nohup jupyter notebook --no-browser --ip=0.0.0.0 --NotebookApp.token='' --NotebookApp.password='' &
